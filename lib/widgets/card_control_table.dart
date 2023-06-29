@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'dart:ui';
 
 import 'package:greenhouse_project/services/user_services.dart';
+import 'package:greenhouse_project/theme/app_theme.dart';
 
 class CardControlTable extends StatelessWidget {
   const CardControlTable({Key? key}) : super(key: key);
@@ -144,7 +145,7 @@ class _CardGreenHouseState extends State<CardGreenHouse> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           CircleAvatar(
-            backgroundColor: Colors.red,
+            backgroundColor: AppTheme.primary,
             child: Icon(
               widget.icon,
               size: 40,

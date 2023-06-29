@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:greenhouse_project/models/models.dart';
+import 'package:greenhouse_project/theme/app_theme.dart';
 
 class CardTable extends StatelessWidget {
   MedicionesTemp medicionesTempList;
@@ -39,7 +40,7 @@ class CardTable extends StatelessWidget {
       children: [
         TableRow(children: [
           _SingleCard(
-            color: Colors.red,
+            color: AppTheme.primary,
             icon: Icons.thermostat_auto_outlined,
             title: 'Temperatura',
             valor: medicionesTempList.medicionesTempData!.temp.isNotEmpty
@@ -48,7 +49,7 @@ class CardTable extends StatelessWidget {
             signo: '°',
           ),
           _SingleCard(
-            color: Colors.red,
+            color: AppTheme.primary,
             icon: Icons.thermostat_auto_outlined,
             title: 'Humedad',
             valor: medicionesHumedadList.medicionesHumedadData!.humedad,
@@ -57,14 +58,14 @@ class CardTable extends StatelessWidget {
         ]),
         TableRow(children: [
           _SingleCard(
-            color: Colors.red,
+            color: AppTheme.primary,
             icon: Icons.food_bank_outlined,
             title: 'Dispensador de alimentos 1',
             valor: stateAlimentos,
             signo: '',
           ),
           _SingleCard(
-            color: Colors.red,
+            color: AppTheme.primary,
             icon: Icons.food_bank_outlined,
             title: 'Dispensador de alimentos 2',
             valor: stateAlimentosB,
@@ -73,14 +74,14 @@ class CardTable extends StatelessWidget {
         ]),
         TableRow(children: [
           _SingleCard(
-            color: Colors.red,
+            color: AppTheme.primary,
             icon: Icons.water,
             title: 'Agua',
             valor: porcAgua.toString().isNotEmpty ? porcAgua.toString() : "N/a",
             signo: '%',
           ),
           _SingleCard(
-            color: Colors.red,
+            color: AppTheme.primary,
             icon: Icons.air_sharp,
             title: 'Amoniaco',
             valor: amoniaco,
@@ -89,14 +90,14 @@ class CardTable extends StatelessWidget {
         ]),
         TableRow(children: [
           _SingleCard(
-            color: Colors.red,
+            color: AppTheme.primary,
             icon: Icons.light_mode,
             title: 'Luz ambiente',
             valor: lumens,
             signo: 'Lx',
           ),
           _SingleCard(
-            color: Colors.red,
+            color: AppTheme.primary,
             icon: CupertinoIcons.wind_snow,
             title: 'Ventilación',
             valor: stateVentilador.isEmpty ? "N/a" : stateVentilador,
