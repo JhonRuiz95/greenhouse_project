@@ -239,7 +239,7 @@ class _RecordState extends State<Record> {
                       fontWeight: FontWeight.w500),
                 ),
                 Text(
-                  "Fecha: ${medicionesList.medicionesTempData!.hora}",
+                  "Fecha/Hora(T): ${medicionesList.medicionesTempData!.hora}",
                   style: const TextStyle(
                       color: Colors.black54,
                       fontSize: 16,
@@ -274,7 +274,7 @@ class _RecordState extends State<Record> {
                       fontWeight: FontWeight.w500),
                 ),
                 Text(
-                  "Fecha: ${medicionesList.medicionesHumedadData!.hora}",
+                  "Fecha/Hora(T): ${medicionesList.medicionesHumedadData!.hora}",
                   style: const TextStyle(
                       color: Colors.black54,
                       fontSize: 16,
@@ -309,7 +309,7 @@ class _RecordState extends State<Record> {
                       fontWeight: FontWeight.w500),
                 ),
                 Text(
-                  "Fecha: ${medicionesList.medicionesAguaData!.hora}",
+                  "Fecha/Hora(T): ${medicionesList.medicionesAguaData!.hora}",
                   style: const TextStyle(
                       color: Colors.black54,
                       fontSize: 16,
