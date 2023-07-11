@@ -76,26 +76,26 @@ class _PageTitleState extends State<PageTitle> {
               mainAxisSize: MainAxisSize.min,
               children: const [
                 Text(
-                  "En la siguiente app podra monitorear, controlar y revizar el historial de lo sucedido en su criadero avicola.",
+                  "En esta app podra monitorear, controlar y revizar el historial de lo sucedido en su criadero avicola.",
                   textAlign: TextAlign.justify,
                 ),
                 Text("Estado",
                     style:
                         TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
                 Text(
-                    "En esta sección podra vizualizar el estado de las variables(Temperatura, Humedad, Agua, Amoniaco y Luz Ambiente) y de los actuadores (Dispensador de alimentos 1-2 y ventilacíon)",
+                    "En esta sección podra vizualizar el estado de las variables(Temperatura, Humedad, Agua, Amoniaco y Luz Ambiente) y de los actuadores (Dispensador de alimentos 1-2 y ventilacíon).",
                     textAlign: TextAlign.justify),
                 Text("Controles",
                     style:
                         TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
                 Text(
-                    "En esta sección podra ajustar el Umbral de la temperatura(Punto maximo de temperatura alcanzado por el criadero) o encender y apagar los actuadores(Control de ventilación, ventanas, alimentario 1-2 y agua) ",
+                    "En esta sección podra ajustar el Umbral de la temperatura(Punto maximo de temperatura alcanzado por el criadero) o encender y apagar los actuadores(Control de ventilación, ventanas, alimentario 1-2 y agua).",
                     textAlign: TextAlign.justify),
                 Text("Historial",
                     style:
                         TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
                 Text(
-                    "En esta sección podra vizualizar los datos capturados por los respectivos sensores, acompañado de su hora y fecha(Temperatura, Humedad y Agua)",
+                    "En esta sección podra vizualizar los datos capturados por los respectivos sensores, acompañado de su hora y fecha(Temperatura, Humedad y Agua).",
                     textAlign: TextAlign.justify),
               ],
             ),
