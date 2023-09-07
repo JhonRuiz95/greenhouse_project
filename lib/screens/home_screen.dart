@@ -1,7 +1,6 @@
 import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
 
-import 'package:greenhouse_project/theme/app_theme.dart';
 import 'package:greenhouse_project/views/views.dart';
 import 'package:greenhouse_project/widgets/widgets.dart';
 
